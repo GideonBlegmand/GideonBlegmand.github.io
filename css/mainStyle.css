@@ -1,9 +1,13 @@
-body {
+/*body {
 	background-image: url("/images/forestFog.jpg");
 	background-repeat: no-repeat;
 	background-size: cover; 
 	position: relative;
-	/*background bugger når vindue size ændres startværdi: cover nu: 100% 1000px*/
+	---udkommenter linje----background bugger når vindue size ændres startværdi: cover nu: 100% 1000px
+}*/
+
+body {
+	background-color: #303030; 
 }
 
 #header	{
