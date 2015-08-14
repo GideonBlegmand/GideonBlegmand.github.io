@@ -1,13 +1,15 @@
 <style>
 
 #ContentContainer {
-	margin-right: 50px;
-	margin-left: 50px;
-	padding-right: 50px;
-	padding-left: 50px;
+	margin-right: 137px;
+	margin-left: 137px;
 }
 
 #Header {
 	background-color: orange;
 	text-align: center;
+}
+
+h1 {
+	color: white;
 }
