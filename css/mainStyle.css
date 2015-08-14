@@ -1,9 +1,13 @@
 <style>
 
-#ContentContainer {
-	margin-right: 137px;
-	margin-left: 137px;
-}
+html, body {
+    	height: 100%;
+    	margin: 0px;
+    }
+
+ #wrapper {
+    min-height: 100%; 
+ }
 
 #Header {
 	background-color: orange;
