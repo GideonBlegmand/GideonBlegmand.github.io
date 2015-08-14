@@ -17,7 +17,7 @@ html, body {
 	font-family: "Times New Roman", Times, serif;
 }
 
-ul.symbols {
+ul#symbols {
 	list-style-type: none;
 	display: inline; 
 }
