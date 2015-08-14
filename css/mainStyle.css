@@ -3,6 +3,7 @@
 html, body {
     	height: 100%;
     	margin: 0px;
+    	background-color: #606060;
     }
 
  #wrapper {
@@ -20,7 +21,8 @@ html, body {
 ul#symbols li {
 	list-style-type: none;
 	display: inline; 
-	list-style-image: url('Images/WelcomeSymbol.png');
+	padding-right: 100px;
+	padding-left: 100px;
 }
 
 h1 {
