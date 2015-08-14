@@ -19,6 +19,7 @@ html, body {
 }
 
 ul#symbols li {
+	text-align: center;
 	list-style-type: none;
 	display: inline; 
 	padding-right: 100px;
