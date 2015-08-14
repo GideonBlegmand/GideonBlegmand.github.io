@@ -20,6 +20,7 @@ html, body {
 ul#symbols li {
 	list-style-type: none;
 	display: inline; 
+	list-style-image: url('/Images/WelcomeSymbol.png');
 }
 
 h1 {
