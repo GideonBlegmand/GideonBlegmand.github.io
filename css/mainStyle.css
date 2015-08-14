@@ -17,6 +17,11 @@ html, body {
 	font-family: "Times New Roman", Times, serif;
 }
 
+ul.symbols {
+	list-style-type: none;
+	display: inline; 
+}
+
 h1 {
 	color: white;
 }
