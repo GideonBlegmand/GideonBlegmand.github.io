@@ -5,6 +5,7 @@ html, body {
     }
 
  #wrapper {
+ 	margin-top: 0px;
     min-height: 100%; 
     margin-right: 300px;
     margin-left: 300px;
