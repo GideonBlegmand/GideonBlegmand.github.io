@@ -1,11 +1,11 @@
-/*html, body {
+html, body {
     	height: 100%;
     	margin: 0px;
     	background-color: #606060;
     }
 
  #wrapper {
- 	margin-top: 0px;
+ 	position: absolute;
     min-height: 100%; 
     margin-right: 300px;
     margin-left: 300px;
@@ -28,4 +28,4 @@ ul#symbols li {
 h1 {
 	color: white;
 	font-family: "Times New Roman", Times, serif;
-}*/
+}
