@@ -8,22 +8,43 @@
 
 <body>
 	<div id="wrapper">
-		<div id="Header"> <!--Kino Couch Title-->
+		<div align="center">
+
+			<img id="lightbulb" onclick="LightSwitch()" src="images/BulbOff.jpg" width="100" height="180" align="center">
+
+			<script>
+				function LightSwitch() {
+					var image = document.getElementById('lightbulb');
+
+					if (image.src.match("BulbOn.jpg")) {
+						image.src = "images/BulbOff.jpg";
+						
+						} else {
+						image.src = "images/BulbOn.jpg";
+					}
+
+				}
+
+			</script>
+
+			<p id="Header">Spar på strømmen!</p>
+		</div>
+		<!--<div id="Header"> <!--Kino Couch Title
 			<h1>Kino Couch</h1>
 		</div>
-		<div> <!--symbols-->
+		<div> <!--symbols
 			<ul id="symbols">
 				<li><img src="images/WelcomeSymbol.png"></li>
 				<li><img src="images/ReviewSymbol.png"></li>
 				<li><img src="images/FollowersSymbol.png"></li>
 			</ul>
 		</div>
-		<div> <!--symbol text field-->
+		<div> <!--symbol text field
 
 		</div>
-		<div> <!--Login area-->
-			
-		</div>
+		<div> <!--Login area
+		
+		</div>-->
 	</div>
 </body>
 </html>

@@ -1,20 +1,20 @@
 html, body {
-    	height: 100%;
-    	margin: 0px;
-    	background-color: #606060;
-    }
-
- #wrapper {
- 	position: absolute;
-    min-height: 100%; 
-    margin-right: 300px;
-    margin-left: 300px;
- }
+	height: 100%;
+	margin: 0px;
+	background-color: #303030;
+}
+#wrapper {
+	margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
 
 #Header {
 	background-color: orange;
 	text-align: center;
 	font-family: "Times New Roman", Times, serif;
+	box-shadow: 10px 10px 5px #101010; 
+	color: white; /*slet !*/
 }
 
 ul#symbols li {
@@ -26,6 +26,7 @@ ul#symbols li {
 }
 
 h1 {
+	margin: 0;
 	color: white;
 	font-family: "Times New Roman", Times, serif;
 }
