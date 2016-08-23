@@ -9,7 +9,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FFFAFA; /*#333;*/
+    background-color: white;
 }
 
 li {
@@ -18,7 +18,7 @@ li {
 
 li a {
     display: block;
-    color: black;
+    color: #404040;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -26,35 +26,21 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #CD853F;
-    color: white;
+	color: #B8860B;
+	border-bottom: 2px solid #B8860B; 
+    /*background-color: #111;*/
 }
 
-#header{
-	height: 200px;
-}
-
-#parent{
-	background-color: #ff944d;
-	height: 300px;
-}
-
-.center{
-	text-align: center;
-}
-
-#backtwo{
-	background-color: #ffd480;
-	height: 300px;
-}
-
-#backthree{
-	background-color: #3d3d5c;
-	height: 300px;
-}
-
-h1 {
-	margin: 0;
+.active {
 	color: black;
-	font-family: "Times New Roman", Times, serif;
+	background-color: #009999;
+}
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+/*li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
 }
