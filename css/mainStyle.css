@@ -16,11 +16,6 @@ li {
     float: left;
 }
 
-.active {
-	color: white;
-	background-color: #B8860B;
-}
-
 li a, .dropbtn {
     display: inline-block;
     color: #404040;
@@ -35,6 +30,11 @@ li a:hover, .dropdown:hover .dropbtn {
 
 li.dropdown {
     display: inline-block;
+}
+
+.active:not(.nohover) {
+	color: white;
+	background-color: #B8860B;
 }
 
 .dropdown-content {
